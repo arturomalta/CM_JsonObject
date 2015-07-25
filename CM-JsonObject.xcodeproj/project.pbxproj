@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EE994DF1B6342B70073B0B1 /* Sys.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE994DE1B6342B70073B0B1 /* Sys.m */; };
+		8EE994E21B6344970073B0B1 /* Wind.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE994E11B6344970073B0B1 /* Wind.m */; };
+		8EE994E51B6344D90073B0B1 /* Rain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE994E41B6344D90073B0B1 /* Rain.m */; };
+		8EE994E81B63452A0073B0B1 /* Clouds.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE994E71B63452A0073B0B1 /* Clouds.m */; };
 		D19A6B9E1B5A999E00A0C88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6B9D1B5A999E00A0C88A /* main.m */; };
 		D19A6BA11B5A999E00A0C88A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D19A6BA01B5A999E00A0C88A /* AppDelegate.m */; };
 		D19A6BA41B5A999E00A0C88A /* CM_JsonObject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D19A6BA21B5A999E00A0C88A /* CM_JsonObject.xcdatamodeld */; };
@@ -56,6 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EE994DD1B6342B70073B0B1 /* Sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sys.h; sourceTree = "<group>"; };
+		8EE994DE1B6342B70073B0B1 /* Sys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sys.m; sourceTree = "<group>"; };
+		8EE994E01B6344970073B0B1 /* Wind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wind.h; sourceTree = "<group>"; };
+		8EE994E11B6344970073B0B1 /* Wind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wind.m; sourceTree = "<group>"; };
+		8EE994E31B6344D90073B0B1 /* Rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rain.h; sourceTree = "<group>"; };
+		8EE994E41B6344D90073B0B1 /* Rain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rain.m; sourceTree = "<group>"; };
+		8EE994E61B63452A0073B0B1 /* Clouds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clouds.h; sourceTree = "<group>"; };
+		8EE994E71B63452A0073B0B1 /* Clouds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clouds.m; sourceTree = "<group>"; };
 		D19A6B981B5A999E00A0C88A /* CM-JsonObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-JsonObject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D19A6B9C1B5A999E00A0C88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19A6B9D1B5A999E00A0C88A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -239,6 +251,14 @@
 				D19A6C261B5AAE4C00A0C88A /* Weather.m */,
 				D19A6C221B5AAD1600A0C88A /* WeatherDetail.h */,
 				D19A6C231B5AAD1600A0C88A /* WeatherDetail.m */,
+				8EE994DD1B6342B70073B0B1 /* Sys.h */,
+				8EE994DE1B6342B70073B0B1 /* Sys.m */,
+				8EE994E01B6344970073B0B1 /* Wind.h */,
+				8EE994E11B6344970073B0B1 /* Wind.m */,
+				8EE994E31B6344D90073B0B1 /* Rain.h */,
+				8EE994E41B6344D90073B0B1 /* Rain.m */,
+				8EE994E61B63452A0073B0B1 /* Clouds.h */,
+				8EE994E71B63452A0073B0B1 /* Clouds.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -460,6 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EE994DF1B6342B70073B0B1 /* Sys.m in Sources */,
 				D19A6C1E1B5A9E7100A0C88A /* Coord.m in Sources */,
 				D19A6C0C1B5A9A9100A0C88A /* CommonLoggingProvider.m in Sources */,
 				D19A6BA11B5A999E00A0C88A /* AppDelegate.m in Sources */,
@@ -482,10 +503,13 @@
 				D19A6C1B1B5A9E4700A0C88A /* WeatherObject.m in Sources */,
 				D19A6C271B5AAE4C00A0C88A /* Weather.m in Sources */,
 				D19A6BEB1B5A9A8800A0C88A /* SBJsonTokeniser.m in Sources */,
+				8EE994E21B6344970073B0B1 /* Wind.m in Sources */,
 				D19A6BE21B5A9A8800A0C88A /* NSObject+SBJson.m in Sources */,
+				8EE994E51B6344D90073B0B1 /* Rain.m in Sources */,
 				D19A6B9E1B5A999E00A0C88A /* main.m in Sources */,
 				D19A6C0E1B5A9A9100A0C88A /* ObjectMapper.m in Sources */,
 				D19A6BE81B5A9A8800A0C88A /* SBJsonStreamWriter.m in Sources */,
+				8EE994E81B63452A0073B0B1 /* Clouds.m in Sources */,
 				D19A6BE61B5A9A8800A0C88A /* SBJsonStreamParserAdapter.m in Sources */,
 				D19A6C241B5AAD1600A0C88A /* WeatherDetail.m in Sources */,
 				D19A6C151B5A9ADC00A0C88A /* Declarations.m in Sources */,
@@ -686,6 +710,7 @@
 				D19A6BC01B5A999E00A0C88A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D19A6BC11B5A999E00A0C88A /* Build configuration list for PBXNativeTarget "CM-JsonObjectTests" */ = {
 			isa = XCConfigurationList;
@@ -694,6 +719,7 @@
 				D19A6BC31B5A999E00A0C88A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
